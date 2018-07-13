@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const binary_search = require('./binary_search');
+const binary_search = require('./Unit 1 - Introduction to Algorithms/Binary Search/binary_search');
 
 const myList = [1,3,5,7,9,12,14,16,19,23,45,67,89];
 
