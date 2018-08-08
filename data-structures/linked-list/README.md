@@ -2,7 +2,7 @@
 
 ### Definition
 
-A Linked List is a linear collection of data elements called Nodes. The order of the data elements in a Linked List is not determined by their physical placement in memory; instead, each element _points_ to the next.
+A Linked List is a linear collection of data elements called Nodes. The order of the elements in a Linked List is not determined by their physical placement in memory; instead, each element _points_ to the next.
 
 In its simplest form, a Node contains _some data_ AND a reference to the next Node in the sequence.
 
