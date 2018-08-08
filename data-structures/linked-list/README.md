@@ -16,7 +16,18 @@ function Node(data) {
 
 Simply put, a Linked List is a data structure consisting of a collection of Nodes that, altogether, represent a sequence; each Node stores a reference or _a link_ to the next Node in the sequence.
 
-<!-- ### Pros and Cons -->
+### Pros and Cons
+The structure of a Linked List allows for efficient insertion or removal of elements from any position in the sequence.
+
+A drawback of Linked Lists is that access time is linear. This means that, for instance, if we want to get to the last element of the list, we have to traverse through every element in the list to get there. Therefore, random access is not feasible.
+
+This is what random access looks like when using an array; with random access, we can go straight to the last element of an array.
+```js
+var arr = [1,2,3, ..., 100]; // array of 100 elements
+arr[arr.length - 1] // 100
+```
+
+This can't be done with a Linked List.
 
 #### References
 
