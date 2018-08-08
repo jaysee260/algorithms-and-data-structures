@@ -6,13 +6,13 @@ A Linked List is a linear collection of data elements called Nodes. The order of
 
 In its simplest form, a Node contains _some data_ AND a reference to the next Node in the sequence.
 
-<!-- (In JavaScript, a Node might be represented like this)
+(In JavaScript, a Node might be represented like this)
 ```js
 function Node(data) {
   this.data = data;
   this.next = null;
 }
-``` -->
+```
 
 Simply put, a Linked List is a data structure consisting of a collection of Nodes that, altogether, represent a sequence; each Node stores a reference or _a link_ to the next Node in the sequence.
 
