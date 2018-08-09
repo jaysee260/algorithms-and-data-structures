@@ -38,4 +38,21 @@ DoublyLinkedList.prototype.prepend = function(data) {
   this.head = newHead;
 }
 
+DoublyLinkedList.prototype.deleteNodeWithValue = function(data) {
+  // if the list is empty, we can't delete anything
+  if (this.head == null) return;
+
+  if (this.head.data == data) {
+    this.head.next.prev = this.head.prev;
+    this.head = this.head.next;
+    /** @todo
+     * FINISH WRITING THIS METHOD
+     */
+  }
+}
+
+// DoublyLinkedList.prototype.traverse = function(cb) {}
+
+// DoublyLinkedList.prototype.traverseReverse = function(cb) {}
+
 module.exports = DoublyLinkedList;
