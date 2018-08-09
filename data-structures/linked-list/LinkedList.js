@@ -9,7 +9,7 @@ function LinkedList() {
 
 /**
  * @returns {void}
- * @param {*} data
+ * @param {LinkedListNode} data
  * @name append
  */
 LinkedList.prototype.append = function(data) {
